@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>vaaradhifarms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .marquee{
+         display: flex;
+         width: 10px;
+         background-color: green;
+         background-repeat: repeat-x;
+        }
+        .container{
+        height: 30vh;
+        display: flex;
+        gap: 20px;
+        background-color: yellow;
+        border: 2px solid black;
+        }
+        .alpha{
+        height: 100vh;
+        display: flex;
+        gap: 20px;
+        background-color: yellow;
+        border: 2px solid black;
+        }
+        .a1{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .a2{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .a3{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .xyz{
+            display: flex;
+            gap: 20px;
+            height: 100vh;
+           
+            
+        }
+        .c1{
+            flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        }
+        .c2{
+            flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        }
+
+        .c3{
+            flex: 1;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+        }
+        .beta{
+           
+            display: -ms-inline-grid;
+            gap: 20px;
+
+           
+        }
+        .b1{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .b2{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .b3{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .b4{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>
+    <marquee><bold>FREE SHIPPING ON ORDERS ABOVE</bold> <i class="fa fa-rupee">500</i></marquee>   
+    
+        <h1><div class="container">
+            <div class="c1">
+                <button>
+                    <i class="fas fa-bars"></i>
+                </button> 
+            </div >
+            
+            <div class="c2">
+            <img src="vaaradhi logo.avif">
+            </div>
+            <div class="c3">
+            <button class="btn">
+                <i class="fas fa-search"></i>
+                
+            </button>
+            <button class="btn">
+                <i class="fas fa-shopping-cart"></i>
+                
+            </button>
+          </div>
+        </div>
+        </h1>
+        
+    </div>
+   
+<h2>
+<div class="xyz">
+    <img src="aaabbb.webp">
+</div>
+</h2>
+<div style="height: 100vh;"></div>
+<h3>
+    <div>
+        <div>
+            <p><img src="img7.webp"> </p>
+            <P> WILD FOREST HONEY</P>
+            <p><i class="fa fa-rupee">1150.00</i></p>
+        </div>
+        <div>
+            <p><img src="img2.webp"> </p>
+            <P> WILD FOREST HONEY</P>
+            <p><i class="fa fa-rupee">1150.00</i></p>
+        </div>
+        <div>
+            <p><img src="img3.webp"> </p>
+            <P> WILD FOREST HONEY</P>
+            <p><i class="fa fa-rupee">1150.00</i></p>
+        </div>
+        <div>
+            <p><img src="img9.webp"> </p>
+            <P> WILD FOREST HONEY</P>
+            <p><i class="fa fa-rupee">1150.00</i></p>
+        </div>
+    </div>
+</h3>
+<div style="height: 1000vh;"></div>
+<h4>
+    <div class="alpha">
+        <div class="a1">
+            <bold>sign up to your newsletter</bold>
+            <button>email</button>
+        </div>
+        <div class="a2">
+          <p class="p1"> Costumer Care</p>
+          <p  class="p2"> FAQ </p>
+          <p  class="p3"> Shipping policy</p>
+          <p  class="p4"> Refund policy</p>
+          <p  class="p5"> Cancellation policy</p>
+          <p  class="p6"> Privacy policy</p>
+          <p  class="p7"> Terms of service</p>
+          <p  class="p8"> contact information</p>
+          <p  class="p9"> wild forest honey certificate</p>
+          <p  class="p10"> Dark Forest Honey Certificate</p>
+        </div>
+        <div class="a3">
+            <p>Contact Info</p>
+            <p> Trade Name : Vaaradhi Farms</p>
+            <p> Email Support : vaaradhifarms@gmail.com</p>
+            <p> Customer Care Number :</p>
+            <p> +91 89770 21193</p>
+            <p> +91 89770 21197</p>
+            <p> Customer Support Timings : 10:30am to 6:30pm</p>
+            <p> Address : Manikonda, Hyderabad, Telangana , Pin - 500089</p>
+            <p> FSSAI : 23623028001252</p>
+            <button class="btn">
+                <i class="fab fa-instagram"> </i>
+                </button>
+            <p>  </p>
+            <p>© 2024, Vaaradhi Farms. Built by Ecommified.in</p>    
+
+        </div>
+
+    </div>
+</h4>
+
+
+</body>
+</html>

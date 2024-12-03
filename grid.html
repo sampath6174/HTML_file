@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>grid</title>
+        <style>
+            head{
+                box-sizing: border-box;
+                margin: 0px;
+                padding: 0px;
+            }
+            .parent{
+                display: grid;
+                height: 100vh;
+                grid-template-columns: 15% 75% 15%;
+                grid-template-rows: 10% 80% 10%;
+            }
+            .HEADER{
+                background-color: lightblue;
+                grid-column: 1/4;
+                grid-row: 1/2;
+            }
+            .LEFTMENU{
+                background-color: lightcyan;
+                grid-column: 1/2;
+                grid-row: 2/3;
+
+            }
+            .MAINMENU{
+                background-color: red;
+                grid-column: 2/3;
+                grid-row: 2/3;
+
+            }
+            .RIGHTMENU{
+                background-color: lightcyan;
+                grid-column: 3/4;
+                grid-row: 2/3;
+
+            }
+            .FOOTER{
+                background-color: lightblue;
+                grid-column: 1/4;
+                grid-row: 3/4;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="HEADER"></div>
+            <div class="LEFTMENU"></div>
+            <div class="MAINMENU"></div>
+            <div class="RIGHTMENU"></div>
+            <div class="FOOTER"></div>
+        </div>
+    </body>
+</html>
